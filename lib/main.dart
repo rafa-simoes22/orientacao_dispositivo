@@ -18,7 +18,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     bool isPortrait = MediaQuery.of(context).orientation == Orientation.portrait;
     Color backgroundColor = isPortrait ? Colors.green : Colors.red;
-    String text = isPortrait ? 'Vertical' : 'Horizontal';
+    String text = isPortrait ? 'Verticallllllllll' : 'Horizontalllllllll';
 
     return Scaffold(
       backgroundColor: backgroundColor,
