@@ -25,11 +25,13 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Container(
           width: MediaQuery.of(context).size.width * 0.75,
-          height: MediaQuery.of(context).size.height * 0.75,
           alignment: Alignment.center,
-          child: Text(
-            text,
-            style: TextStyle(fontSize: 24, color: Colors.white),
+          child: FittedBox(
+            fit: BoxFit.contain,
+            child: Text(
+              text,
+              style: TextStyle(fontSize: 200, color: Colors.white),
+            ),
           ),
         ),
       ),
